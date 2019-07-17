@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
-from aws_cdk import core
-
+from aws_cdk.core import App
 from cdk.cdk_stack import CdkStack
 
 
-app = core.App()
-CdkStack(app, "cdk")
+app = App()
+CdkStack(app, "NodeJsWebAppCDK")
 
 app.synth()

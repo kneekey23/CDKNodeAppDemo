@@ -20,6 +20,8 @@ setuptools.setup(
 
     install_requires=[
         "aws-cdk.core",
+        "aws-cdk.aws-ec2",
+        "aws-cdk.aws-ecs-patterns"
     ],
 
     python_requires=">=3.6",
